@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        function createTable(){
+            var table = document.createElement("table");
+            table.border = "1";
+            table.width = "100%";
+
+            //table API
+            //创建一行
+            //var tr = table.insertRow(table.rows.length);
+            //创建单元格
+            //var td = tr.insertCell(tr.cells.length);
+            var tr,td;
+            for(var i=0;i<6;i++){
+                //循环插入元素
+                tr = table.insertRow(table.rows.length);
+                if(i%2 === 0){
+                    tr.style.backgroundColor = "red";
+                }else{
+                    tr.style.backgroundColor = "green";
+                }
+                for(var j=0;j<5;j++){
+                    td = tr.insertCell(tr.cells.length);
+                    td.innerHTML = "第"+i+"行，第"+j+"列";
+                    td.align = "center";
+
+                }
+            }
+
+            //td.innerHTML = "测试";
+
+            document.querySelector("#tb").appendChild(table);
+        }
+    </script>
+</head>
+<body>
+<input type="button" onclick="createTable()" value="createTable">
+<hr>
+<div id="tb"></div>
+
+</body>
+</html>

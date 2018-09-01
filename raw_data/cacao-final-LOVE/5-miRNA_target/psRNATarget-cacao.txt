@@ -1,0 +1,7 @@
+#Please import the downloaded file into Microsoft Excel or other speadsheet software
+miRNA_Acc.	Target_Acc.	Expectation	UPE$	miRNA_start	miRNA_end	Target_start	Target_end	miRNA_aligned_fragment	Target_aligned_fragment	Inhibition	Target_Desc.	Multiplicity
+tcc-miR319	TU21953	1.5	-1.0	1	21	747	767	UUUGGACUGAAGGGAGCUCCU	UAGAGCUCCCUUCAAUCCAAA	Cleavage		1
+tcc-miR396a	TU58575	2.5	-1.0	1	21	607	627	UUCCACAGCUUUCUUGAACUG	AAGCUCAAGAAAGCUGUGGGA	Cleavage		1
+tcc-miR396b	TU58575	2.5	-1.0	1	21	607	627	UUCCACAGCUUUCUUGAACUG	AAGCUCAAGAAAGCUGUGGGA	Cleavage		1
+tcc-miR396c	TU58575	2.5	-1.0	1	21	607	627	UUCCACAGCUUUCUUGAACUU	AAGCUCAAGAAAGCUGUGGGA	Cleavage		1
+tcc-miR396e	TU58575	2.5	-1.0	1	21	607	627	UUCCACAGCUUUCUUGAACUU	AAGCUCAAGAAAGCUGUGGGA	Cleavage		1

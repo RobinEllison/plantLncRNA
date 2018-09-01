@@ -1,0 +1,5 @@
+#Please import the downloaded file into Microsoft Excel or other speadsheet software
+miRNA_Acc.	Target_Acc.	Expectation	UPE$	miRNA_start	miRNA_end	Target_start	Target_end	miRNA_aligned_fragment	Target_aligned_fragment	Inhibition	Target_Desc.	Multiplicity
+csi-miR3946	TU35302	2.0	-1.0	1	24	83	107	UUGUAGAGAAAGAGA-AGAGAGCAC	UCUCUCUCUCUCUCUUUCUCUACAA	Cleavage		1
+csi-miR3951	TU6804	2.5	-1.0	1	21	743	763	UAGAUAAAGAUGAGAGAAAAA	GUUUUCUCUCAUCUUUUUCUG	Cleavage		1
+csi-miR156	TU32358	3.0	-1.0	1	20	12	31	UGACAGAAGAGAGUGAGCAC	UCUCUCUCUCUCUUCUGUCA	Cleavage		1
